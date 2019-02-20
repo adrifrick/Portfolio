@@ -4,7 +4,7 @@
 library(lubridate)
 
 # Step 1: Get Inventory & Set Headers
-inventory.csv <- read.csv("C:/Users/Adri/Downloads/Inventory Info.csv", header=TRUE)
+inventory.csv <- read.csv("Inventory Info.csv", header=TRUE)
 names(inventory.csv) <- c("Name", "Qty" , "Price" , "Sold" , "Purchased")
 
 # Step 2: Ignore observations with >=1 value in Qty column
