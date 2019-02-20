@@ -2,7 +2,6 @@
 # Question: How long does product stay on shelf until sold out?
 # Output: graph of date ranges
 library(lubridate)
-library(ggplot2)
 
 # Step 1: Get Inventory & Set Headers
 inventory.csv <- read.csv("C:/Users/Adri/Downloads/Inventory Info.csv", header=TRUE)
